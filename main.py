@@ -1,11 +1,12 @@
 import MetaTrader5 as mt5
 import pandas as pd
 import numpy as np
+import config
 
 import time
-from QUANTREO.MetaTrader5 import *
+from Quantreo.MetaTrader5 import *
 from datetime import datetime, timedelta
-from QUANTREO.LiveTradingSignal import *
+from Quantreo.LiveTradingSignal import *
 import warnings
 warnings.filterwarnings("ignore")
 
